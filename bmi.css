@@ -1,0 +1,37 @@
+*{
+ 
+    box-sizing: border-box;
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+h1{
+    text-align: center;
+}
+form{
+    color: transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+span{
+    color: aqua;
+}
+button{
+    border:none;
+    border: 1px solid grey;
+    padding: 10px;
+    box-shadow: 2px 2px 8px;
+    transition: transform 1s ease;
+    width: 10%;
+}
+button:hover{
+    transform: scale(0.90);
+}
+#weight-guide{
+    font-size: 1.2rem;
+}
+#result{
+    margin: 30px;
+}
